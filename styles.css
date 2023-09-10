@@ -1,0 +1,47 @@
+*{
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background-image: url("Rainbow\ bg.jpeg"); */
+
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(135deg, red , yellow); /* Standard syntax */
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    color: aliceblue;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    margin-left: 2rem;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
