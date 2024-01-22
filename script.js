@@ -3,7 +3,7 @@ const hourEl = document.getElementById("hours")
 const minuteEl = document.getElementById("minutes")
 const secondEl = document.getElementById("seconds")
 
-const birthday = "18 Dec 2023"
+const birthday = "18 Dec 2024"
 
 function countdown(){
     const birthdaydate = new Date(birthday)
